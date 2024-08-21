@@ -31,6 +31,9 @@
             .manrope-fonts {
                 font-family: "Manrope", sans-serif;
             }
+            .bg-deep {
+                background-color: #abef5f;
+            }
         </style>
         <!-- Some styles -->
 
@@ -38,5 +41,74 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Rinterio</title>
     </head>
-    <body class="manrope-fonts"></body>
+    <body class="manrope-fonts">
+        <section class="bg-[#f4f4f4]">
+            <!-- Header section start from here -->
+            <section class="header container m-auto">
+                <!-- Navbar section start from here -->
+                <nav>
+                    <div class="navbar bg-base-100 bg-[#f4f4f4]">
+                        <!-- For mobile device -->
+                        <div class="navbar-start">
+                            <div class="dropdown">
+                                <div
+                                    tabindex="0"
+                                    role="button"
+                                    class="btn btn-ghost lg:hidden ml-auto"
+                                >
+                                    <i class="fa-solid fa-bars"></i>
+                                </div>
+                                <ul
+                                    tabindex="0"
+                                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+                                >
+                                    <li><a>Home</a></li>
+                                    <li><a>Service</a></li>
+                                    <li><a>Portfolio</a></li>
+                                    <li><a>Blog</a></li>
+                                    <li><a>Contact Us</a></li>
+                                </ul>
+                            </div>
+                            <a class="btn btn-ghost text-3xl font-extrabold"
+                                ><i
+                                    class="fa-solid fa-arrow-right bg-deep p-1 rounded-full -rotate-45"
+                                ></i
+                                >Rinterio</a
+                            >
+                        </div>
+                        <!-- For Medium and Large Device -->
+                        <div class="navbar-center hidden lg:flex">
+                            <ul class="menu menu-horizontal px-1">
+                                <li>
+                                    <a class="text-[16px] font-extrabold"
+                                        >Home</a
+                                    >
+                                </li>
+                                <li><a>Service</a></li>
+                                <li><a>Portfolio</a></li>
+                                <li><a>Blog</a></li>
+                                <li><a>Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <!-- For medium and large device  -->
+                        <div class="navbar-end hidden lg:inline-flex">
+                            <i
+                                class="fa-solid fa-magnifying-glass bg-white p-3 rounded-full cursor-pointer"
+                            ></i>
+                            <i
+                                class="fa-solid fa-cart-shopping mx-5 bg-white p-3 rounded-full cursor-pointer"
+                            ></i>
+                            <a class="btn bg-deep rounded-3xl font-extrabold"
+                                >Book Consultant<i
+                                    class="fa-solid fa-arrow-right text-[#f4f4f4] bg-[black] p-1 rounded-full -rotate-45"
+                                ></i
+                            ></a>
+                        </div>
+                    </div>
+                </nav>
+                <!-- Navbar section end here -->
+            </section>
+            <!-- Header section end here -->
+        </section>
+    </body>
 </html>
