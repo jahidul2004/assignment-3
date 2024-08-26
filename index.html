@@ -48,10 +48,11 @@
             <section class="header container m-auto">
                 <!-- Navbar section start from here -->
                 <nav>
-                    <div class="navbar bg-transparent bg-[#f4f4f4]">
+                    <div class="navbar bg-transparent bg-[#f4f4f4] w-full lg:flex lg:justify-between">
                         <!-- For mobile device -->
-                        <div class="navbar-start">
-                            <div class="dropdown">
+                        <div class="w-full lg:w-max">
+                            <div class="dropdown flex flex-row-reverse justify-between w-full">
+                                <!-- Menu icon -->
                                 <div
                                     tabindex="0"
                                     role="button"
@@ -69,16 +70,18 @@
                                     <li><a>Blog</a></li>
                                     <li><a>Contact Us</a></li>
                                 </ul>
-                            </div>
-                            <a class="btn btn-ghost text-3xl font-extrabold"
+
+
+                                <a class="btn btn-ghost text-3xl font-extrabold"
                                 ><i
                                     class="w-10 h-10 fa-solid fa-arrow-right bg-deep p-1 rounded-full -rotate-45"
                                 ></i
                                 >Rinterio</a
                             >
+                            </div>
                         </div>
                         <!-- For Medium and Large Device -->
-                        <div class="navbar-center hidden lg:flex">
+                        <div class="hidden lg:flex">
                             <ul class="menu menu-horizontal px-1">
                                 <li>
                                     <a class="text-[16px] font-extrabold"
@@ -92,7 +95,7 @@
                             </ul>
                         </div>
                         <!-- For medium and large device  -->
-                        <div class="navbar-end hidden lg:inline-flex">
+                        <div class="hidden lg:inline-flex">
                             <i
                                 class="fa-solid fa-magnifying-glass bg-white p-3 rounded-full cursor-pointer"
                             ></i>
